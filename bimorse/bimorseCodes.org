@@ -1,0 +1,41 @@
+| Sx Sx | e |
+| xS xS | t |
+| SS SS | a |
+|-------+---|
+| SS Sx | o |
+| SS xS | i |
+| Sx xS | n |
+| xS Sx | s |
+| Sx SS | h |
+| xS SS | r |
+|-------+---|
+| Sx Lx | d |
+| Lx Sx | l |
+| xS xL | c |
+| xL xS | u |
+| SS LL | m |
+| LL SS | w |
+|-------+---|
+| Sx xL | f |
+| Lx xS | g |
+| xS Lx | y |
+| xL Sx | p |
+| SS Lx | b |
+| SS xL | v |
+| LL Sx | k |
+| LL xS | j |
+| Lx SS | x |
+| xL SS | q |
+| Sx LL | z |
+| xS LL |   |
+|-------+---|
+| Lx Lx | _ |
+| xL xL |   |
+| LL LL |   |
+|-------+---|
+| Lx xL |   |
+| xL Lx |   |
+| LL Lx |   |
+| LL xL |   |
+| Lx LL |   |
+| xL LL |   |

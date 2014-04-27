@@ -1,0 +1,17 @@
+#!/bin/bash
+#TODO it does not work currently. Fix it before using (look for strings starting with |
+exit 0
+FILE_CPP='MorseCodes.h'
+FILE_PYTHON='morse_codes.py'
+
+echo > "$FILE_CPP"
+echo > "$FILE_PYTHON"
+while IFS='| ' read -r _ morse name; do
+    if [[ $morse && $name ]]; then
+        convertedMorse=$(./morseConvert "$morse")
+        echo "const int MORSE_${name^^} = $convertedMorse;" >> "$FILE_CPP"
+        echo "MORSE_${name^^} = $(./morseConvert "$morse")" >> "$FILE_PYTHON"
+    fi
+done < 'morseCodes.org'
+
+exit 0
