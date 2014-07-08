@@ -3,42 +3,43 @@
 | SS SS | Enter     |
 |-------+-----------|
 | Sx xS | Shift     |
-| xS Sx | e         |
+| xS Sx | Symbols   |
 |-------+-----------|
-| Sx SS | t         |
-| xS SS | a         |
-| SS Sx | o         |
-| SS xS | i         |
+| Sx SS | e         |
+| xS SS | t         |
+| SS Sx | a         |
+| SS xS | o         |
 |-------+-----------|
-| Sx Lx | n         |
-| Lx Sx | s         |
-| xS xL | h         |
-| xL xS | r         |
+| Sx Lx | i         |
+| Lx Sx | n         |
+| xS xL | s         |
+| xL xS | h         |
 |-------+-----------|
-| SS LL | d         |
-| LL SS | l         |
+| SS LL | r         |
+| LL SS | d         |
 |-------+-----------|
-| Sx xL | c         |
-| Lx xS | u         |
-| xS Lx | m         |
-| xL Sx | w         |
+| Sx xL | l         |
+| Lx xS | c         |
+| xS Lx | u         |
+| xL Sx | m         |
 |-------+-----------|
-| Sx LL | f         |
+| Sx LL | w         |
+| Lx SS | f         |
 | xS LL | g         |
-| SS Lx | y         |
-| SS xL | p         |
-| Lx SS | b         |
-| xL SS | v         |
-| LL Sx | k         |
-| LL xS | j         |
+| xL SS | y         |
+| SS Lx | p         |
+| SS xL | b         |
+| LL Sx | v         |
+| LL xS | k         |
 |-------+-----------|
-| Lx Lx | x         |
-| xL xL | q         |
-| LL LL | z         |
+| Lx Lx | j         |
+| xL xL | x         |
+| LL LL | q         |
 |-------+-----------|
-| Lx xL | Escape    |
-| xL Lx | Alt       |
-| LL Lx |           |
+| Lx xL | z         |
+| xL Lx | Ctrl      |
+|-------+-----------|
+| Lx LL | Alt       |
+| xL LL | Escape    |
+| LL Lx | Tab       |
 | LL xL |           |
-| Lx LL |           |
-| xL LL |           |
