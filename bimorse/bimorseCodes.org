@@ -1,41 +1,45 @@
-| Sx Sx | e |
-| xS xS | t |
-| SS SS | a |
-|-------+---|
-| SS Sx | o |
-| SS xS | i |
-| Sx xS | n |
-| xS Sx | s |
-| Sx SS | h |
-| xS SS | r |
-|-------+---|
-| Sx Lx | d |
-| Lx Sx | l |
-| xS xL | c |
-| xL xS | u |
-| SS LL | m |
-| LL SS | w |
-|-------+---|
-| Sx xL | f |
-| Lx xS | g |
-| xS Lx | y |
-| xL Sx | p |
-| SS Lx | b |
-| SS xL | v |
-| LL Sx | k |
-| LL xS | j |
-| Lx SS | x |
-| xL SS | q |
-| Sx LL | z |
-| xS LL |   |
-|-------+---|
-| Lx Lx |   |
-| xL xL |   |
-| LL LL |   |
-|-------+---|
-| Lx xL |   |
-| xL Lx |   |
-| LL Lx |   |
-| LL xL |   |
-| Lx LL |   |
-| xL LL |   |
+| Sx Sx | Space     |
+| xS xS | Backspace |
+| SS SS | Enter     |
+|-------+-----------|
+| Sx xS | Shift     |
+| xS Sx | Symbols   |
+|-------+-----------|
+| Sx SS | e         |
+| xS SS | t         |
+| SS Sx | a         |
+| SS xS | o         |
+|-------+-----------|
+| Sx Lx | i         |
+| Lx Sx | n         |
+| xS xL | s         |
+| xL xS | h         |
+|-------+-----------|
+| SS LL | r         |
+| LL SS | d         |
+|-------+-----------|
+| Sx xL | l         |
+| Lx xS | c         |
+| xS Lx | u         |
+| xL Sx | m         |
+|-------+-----------|
+| Sx LL | w         |
+| Lx SS | f         |
+| xS LL | g         |
+| xL SS | y         |
+| SS Lx | p         |
+| SS xL | b         |
+| LL Sx | v         |
+| LL xS | k         |
+|-------+-----------|
+| Lx Lx | j         |
+| xL xL | x         |
+| LL LL | q         |
+|-------+-----------|
+| Lx xL | z         |
+| xL Lx | Ctrl      |
+|-------+-----------|
+| Lx LL | Alt       |
+| xL LL | Escape    |
+| LL Lx | Tab       |
+| LL xL |           |
