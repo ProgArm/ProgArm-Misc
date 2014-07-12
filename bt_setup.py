@@ -2,7 +2,7 @@
 import serial
 from serial import SerialException
 
-sio = serial.Serial(self.device, 9600)
+sio = serial.Serial("/dev/ttyUSB0", 9600)
 
 #TODO would this even work?
 
