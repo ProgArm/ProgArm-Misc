@@ -2,7 +2,8 @@
 import serial
 from serial import SerialException
 
-sio = serial.Serial("/dev/ttyUSB0", 9600)
+# use python -m serial.tools.list_ports to list ports
+sio = serial.Serial("/dev/ttyUSB0", 9600) # TODO accept port and baud rate as an argument
 
 #TODO would this even work?
 
