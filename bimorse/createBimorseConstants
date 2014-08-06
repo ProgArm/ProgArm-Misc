@@ -20,6 +20,6 @@ while IFS='| ' read -r _ first second name; do
 
 	# TODO this stuff makes sense in C, but we should use dict in other languages
         echo "INPUT_${name^^} = $action" >> "$FILE_PYTHON"
-	echo "INPUT_${name^^} = $action;" >> "$FILE_PERL"
+	echo "\$INPUT_${name^^} = $action;" >> "$FILE_PERL"
     fi
 done < bimorseCodes.org
