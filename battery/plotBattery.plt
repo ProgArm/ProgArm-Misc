@@ -14,8 +14,8 @@ set timefmt x "%s"
 
 set format x "%H:%M    %F"
 #set format y "%H:%M"
-set xtics 60*15 rotate by -60
-set mxtics 3
+set xtics 60*60 rotate by -60
+set mxtics 2
 
 set xlabel ""
 set ylabel "mAh"
