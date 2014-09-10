@@ -2,7 +2,7 @@
 set terminal png transparent nocrop enhanced font arial 8 size 1200,1200
 set output 'battery.png'
 
-set multiplot layout 4, 1 title "Battery Stats"
+set multiplot layout 3, 1 title "Battery Stats"
 
 set xdata time
 #set ydata time
