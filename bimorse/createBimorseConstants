@@ -19,11 +19,16 @@ while IFS='| ' read -r _ first second name; do
         first=${combinations["${first^^}"]}
         second=${combinations["${second^^}"]}
         ((action = first * 6 + second)) # *6 is a base 6 left shift
-        echo "static const int INPUT_${name^^} = $action;" >> "$FILE_CPP" # TODO do not use uppercase?
 
-	# TODO this stuff makes sense in C, but we should use dict in other languages
-        echo "INPUT_${name^^} = $action" >> "$FILE_PYTHON"
+        echo "static const int INPUT_${name} = $action;" >> "$FILE_CPP"
+        echo "INPUT_${name} = $action" >> "$FILE_PYTHON" # TODO this stuff makes sense in C, but we should use dict in other languages
 	perlhash+="$name $action "
+	if (( ${#name} == 1 )); then
+	    ((action += 100))
+	    echo "static const int INPUT_${name^^} = $action;" >> "$FILE_CPP"
+	    echo "INPUT_${name^^} = $action" >> "$FILE_PYTHON" # TODO this stuff makes sense in C, but we should use dict in other languages
+	    perlhash+="${name^^} $action "
+	fi
     fi
 done < bimorseCodes.org
 
