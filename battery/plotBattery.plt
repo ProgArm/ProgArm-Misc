@@ -14,7 +14,7 @@ set timefmt x "%s"
 
 set format x "%H:%M    %F"
 #set format y "%H:%M"
-set xtics 60*60 rotate by -60
+set xtics 60*60*3 rotate by -60
 set mxtics 2
 set grid ytics lt 0 lw 1 lc rgb "#bbbbbb"
 set grid xtics lt 0 lw 1 lc rgb "#bbbbbb"
