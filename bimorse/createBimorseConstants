@@ -26,7 +26,7 @@ while IFS='| ' read -r _ first second name; do
 	echo "static const int INPUT_${name} = $action;" >> "$FILE_CPP"
 	echo "INPUT_${name} = $action" >> "$FILE_PYTHON" # TODO this stuff makes sense in C, but we should use dict in other languages
 	perlHash+="$name $action "
-	wikiHash+="'${first^^} ${second^^}' => '${name,,}',"
+	wikiHash+="'${first^^} ${second^^}' => '${name^^}',"
 
 	if (( ${#name} == 1 )); then # not special key
 	    # add Shift+keys
@@ -34,7 +34,6 @@ while IFS='| ' read -r _ first second name; do
 	    echo "static const int INPUT_${name^^} = $action;" >> "$FILE_CPP"
 	    echo "INPUT_${name^^} = $action" >> "$FILE_PYTHON" # TODO this stuff makes sense in C, but we should use dict in other languages
 	    perlHash+="${name^^} $action "
-	    wikiHash+="'${first^^} ${second^^}' => '${name^^}',"
 	fi
     fi
 done < bimorseCodes.org
